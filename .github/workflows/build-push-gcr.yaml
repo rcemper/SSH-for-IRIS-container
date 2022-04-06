@@ -9,16 +9,15 @@ on:
 env:
   # Change this section according to your needs
   IMAGE_NAME:   shhforirisdocker
-  SERVICE:      deploy-demo
-  DOMAIN_NAME:  shhforirisdocker.contest.community.intersystems.com
-
+  SERVICE:      shhforirisdocker
+  DOMAIN_NAME:  shhforirisdocker.demo.community.intersystems.com
   # Leave this section untouched
-  PROJECT_ID:   hackathon-297608
-  CLUSTER_NAME: contest
+  PROJECT_ID:   iris-community-demos
+  CLUSTER_NAME: demo
   GITHUB_SHA:   ${{ github.sha }}
   GCR_LOCATION: eu.gcr.io
   REGION:       europe-west2
-  NAMESPACE:    contest
+  NAMESPACE:    demo
 
 jobs:
   deploy-cloud-run:
@@ -36,6 +35,7 @@ jobs:
 
     - name: Authorize Docker push
       run: gcloud auth configure-docker
+
 
     - name: Build and Push image
       run: |
