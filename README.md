@@ -96,7 +96,7 @@ $
 [Article in DC](https://community.intersystems.com/post/ssh-iris-container)     
 [Demo Video added](https://www.youtube.com/watch?v=fC61EPdTDQQ)  
 
-[Demo Server SMP]()  **Sorry! Demo Server rejected instalation**   
+[Demo Server SMP]()  **Sorry! Demo Server rejected installation**   
         
 **Code Quality**   
 <img width="85%" src="https://openexchange.intersystems.com/mp/img/packages/1782/screenshots/lmqglhzayy6mmqfgejx8jjns8bo.jpg">
