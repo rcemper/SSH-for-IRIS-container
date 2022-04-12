@@ -99,7 +99,4 @@ $
 [Demo Server SMP]()  **Sorry! Demo Server rejected instalation**   
         
 **Code Quality**   
-<img width="85%" src="
-https://openexchange.intersystems.com/mp/img/packages/1775/screenshots/dj0okgvnqubehrqtwizisudo.jpg
-">
-
+<img width="85%" src="https://openexchange.intersystems.com/mp/img/packages/1782/screenshots/lmqglhzayy6mmqfgejx8jjns8bo.jpg">
