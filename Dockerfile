@@ -4,6 +4,7 @@ FROM $IMAGE
 USER root
 
 COPY ssh/ssh* /
+ENV DEBIAN_FRONTEND noninteractive
 RUN /sshini.sh
 
 WORKDIR /opt/irisbuild
