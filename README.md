@@ -80,12 +80,10 @@ Instance 'IRIS'   (default)
 
 $ iris session iris -U "%SYS"
 Node: e37392a1c7c3, Instance: IRIS
-%SYS>zpm
-zpm:%SYS>list
-ssh-for-iris-container 0.0.1
-webterminal 4.9.2
-zpm 0.2.14
-zpm:%SYS>q   
+%SYS>zpm "list"
+zpm                    0.9.2 (DeveloperMode)
+ssh-for-iris-container 0.0.5 (DeveloperMode)
+iterm                  0.1.0
 %SYS>d ^zSSH   
 This is a placeholder for testing    
  if you see it, then the installation was OK   
